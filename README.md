@@ -5,13 +5,14 @@ Maven repository for google-webrtc library for android os
 To connect library, you need to add a link to project repository in build.gradle file of project
 
 ```gradle
-    repositories {
-        ..
-        maven {
-            url "https://raw.githubusercontent.com/alexgreench/google-webrtc/master"
+    allprojects {
+        repositories {
+            ..
+            maven { url "https://raw.githubusercontent.com/alexgreench/google-webrtc/master" }
         }
-    }
+}
 ```
+
 Add a dependency for the current version of the library to list of dependencies in build.gradle file of required module
 
 ```gradle''
