@@ -10,7 +10,7 @@ To connect library, you need to add a link to project repository in build.gradle
             ..
             maven { url "https://raw.githubusercontent.com/alexgreench/google-webrtc/master" }
         }
-}
+    }
 ```
 
 Add a dependency for the current version of the library to list of dependencies in build.gradle file of required module
